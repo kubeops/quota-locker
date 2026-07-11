@@ -12,14 +12,14 @@ import (
 )
 
 var (
-	awsLockAccounts   []string
-	awsLockAll        bool
-	awsLockMethod     string
-	awsLockYes        bool
-	awsLockExclude    []string
-	awsLockRoleName   string
-	awsLockRoleExtID  string
-	awsLockRoleSess   string
+	awsLockAccounts  []string
+	awsLockAll       bool
+	awsLockMethod    string
+	awsLockYes       bool
+	awsLockExclude   []string
+	awsLockRoleName  string
+	awsLockRoleExtID string
+	awsLockRoleSess  string
 )
 
 var awsLockCmd = &cobra.Command{

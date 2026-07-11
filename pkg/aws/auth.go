@@ -197,6 +197,7 @@ func awsStr(p *string) string {
 	}
 	return *p
 }
+
 func contains(s, substr string) bool {
 	for i := 0; i+len(substr) <= len(s); i++ {
 		if s[i:i+len(substr)] == substr {
